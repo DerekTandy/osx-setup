@@ -41,8 +41,14 @@ brew cask install nvalt
 echo '^ installing intellij idea'
 brew cask install intellij-idea
 
+echo '^ installing jq'
+brew install jq
+
 echo '^ installing httpie'
 brew install httpie
+
+echo '^ installing awscli'
+brew install awscli
 
 echo '^ installing cfcli'
 brew cask install cloudfoundry-cli
