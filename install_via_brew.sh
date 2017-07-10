@@ -8,6 +8,9 @@ else
   echo '^ brew already installed'
 fi
 
+echo '^ installing ssh-copy-id'
+brew install ssh-copy-id
+
 echo '^ installing java'
 brew cask install java
 
