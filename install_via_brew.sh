@@ -14,9 +14,6 @@ brew cask install java
 echo '^ installing iterm2'
 brew cask install iterm2
 
-echo '^ installing quicksilver'
-brew cask install quicksilver
-
 echo '^ installing slack'
 brew cask install slack
 
@@ -50,11 +47,11 @@ brew install httpie
 echo '^ installing awscli'
 brew install awscli
 
-echo '^ installing cfcli'
-brew cask install cloudfoundry-cli
+#echo '^ installing cfcli'
+#brew cask install cloudfoundry-cli
 
-echo '^ installing docker-machine'
-brew cask install dockertoolbox
+#echo '^ installing docker-machine'
+#brew cask install dockertoolbox
 
-echo '^ installing cakebrew'
-brew cask install cakebrew
+#echo '^ installing cakebrew'
+#brew cask install cakebrew
