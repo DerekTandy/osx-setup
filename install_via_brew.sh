@@ -50,6 +50,12 @@ brew install httpie
 echo '^ installing awscli'
 brew install awscli
 
+echo '^ installing atom'
+brew cask install atom
+
+echo '^ installing atom plugins'
+apm install atom-beautify
+
 #echo '^ installing cfcli'
 #brew cask install cloudfoundry-cli
 
