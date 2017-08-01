@@ -62,6 +62,7 @@ brew cask install visual-studio-code
 echo '^ installing code plugins'
 code --install-extension christian-kohler.path-intellisense
 code --install-extension formulahendry.code-runner
+code --install-extension adamvoss.yaml
 
 #echo '^ installing cfcli'
 #brew cask install cloudfoundry-cli
