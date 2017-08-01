@@ -56,6 +56,13 @@ brew cask install atom
 echo '^ installing atom plugins'
 apm install atom-beautify
 
+echo '^ installing visual-studio-code'
+brew cask install visual-studio-code
+
+echo '^ installing code plugins'
+code --install-extension christian-kohler.path-intellisense
+code --install-extension formulahendry.code-runner
+
 #echo '^ installing cfcli'
 #brew cask install cloudfoundry-cli
 
